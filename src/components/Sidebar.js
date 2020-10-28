@@ -56,16 +56,6 @@ export const Side = props => {
                     <Link to="/descarga">Descarga</Link>
                     </Nav.Link>
                 </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link>
-                    <Link to="/analisis">Analisis </Link>
-                    </Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link>
-                    <Link to="/explicacion">Explicacion</Link>
-                    </Nav.Link>
-                </Nav.Item>
             </Nav>
         </Styles>
         );

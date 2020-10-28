@@ -4,8 +4,6 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Home } from './Home';
 import { Mapas } from './Mapas';
 import { Descarga } from './Descarga';
-import { Analisis } from './Analisis';
-import { Explicacion } from './Explicacion';
 import { Contact } from './Contact';
 import { NoMatch } from './NoMatch';
 import { Layout } from './components/Layout';
@@ -30,8 +28,6 @@ class App extends Component {
                   <Route exact path="/" component={Home} />
                   <Route path="/mapas" component={Mapas} />
                   <Route path="/descarga" component={Descarga} />
-                  <Route path="/analisis" component={Analisis} />
-                  <Route path="/explicacion" component={Explicacion} />
                   <Route path="/contact" component={Contact} />
                   <Route component={NoMatch} />
                 </Switch>
