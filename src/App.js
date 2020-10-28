@@ -21,7 +21,7 @@ class App extends Component {
       <React.Fragment>
         <Router>
           <Row>
-            <Col xs={2} id="sidebar-wrapper">
+            <Col style={{width: '350px'}} id="sidebar-wrapper">
               <Side />
             </Col>
             <Col xs={10} id="page-content-wrapper">

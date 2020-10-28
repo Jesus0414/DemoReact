@@ -39,7 +39,7 @@ export const Side = props => {
             activeKey="/home"
             onSelect={selectedKey => alert(`selected ${selectedKey}`)}
             >
-                <Navbar.Brand href="/"><img class="logo" src={Logo}></img></Navbar.Brand>
+                <Navbar.Brand href="/"><img class="logo" style={{width: '100%', height: 'auto'}} src={Logo}></img></Navbar.Brand>
                 <div className="sidebar-sticky"></div>
                 <Nav.Item>
                     <Nav.Link>
